@@ -1,2 +1,2 @@
 add_subdirectory(sample_library)
-add_subdirectory(myproject)
+add_subdirectory(hello_world)
