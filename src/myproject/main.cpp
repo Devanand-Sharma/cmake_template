@@ -1,5 +1,8 @@
 #include <CLI/CLI.hpp>
+#include <fmt/base.h>
+#include <fmt/format.h>
 #include <spdlog/spdlog.h>
+
 
 // This file will be generated automaticallgit ay when cur_you run the CMake
 // configuration step. It creates a namespace called `myproject`. You can modify
