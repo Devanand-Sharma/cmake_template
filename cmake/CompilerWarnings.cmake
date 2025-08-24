@@ -8,8 +8,7 @@ function(
   WARNINGS_AS_ERRORS
   MSVC_WARNINGS
   CLANG_WARNINGS
-  GCC_WARNINGS
-  CUDA_WARNINGS)
+  GCC_WARNINGS)
   if("${MSVC_WARNINGS}" STREQUAL "")
     set(MSVC_WARNINGS
         /W4 # Baseline reasonable warnings
@@ -68,17 +67,6 @@ function(
         -Wlogical-op # warn about logical operations being used where bitwise were probably wanted
         -Wuseless-cast # warn if you perform a cast to the same type
         -Wsuggest-override # warn if an overridden member function is not marked 'override' or 'final'
-    )
-  endif()
-
-  if("${CUDA_WARNINGS}" STREQUAL "")
-    set(CUDA_WARNINGS
-        -Wall
-        -Wextra
-        -Wunused
-        -Wconversion
-        -Wshadow
-        # TODO add more Cuda warnings
     )
   endif()
 
