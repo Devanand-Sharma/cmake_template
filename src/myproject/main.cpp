@@ -1,7 +1,10 @@
 #include <CLI/CLI.hpp>
+#include <exception>
 #include <fmt/base.h>
 #include <fmt/format.h>
+#include <optional>
 #include <spdlog/spdlog.h>
+#include <string>
 
 
 // This file will be generated automaticallgit ay when cur_you run the CMake
