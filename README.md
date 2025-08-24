@@ -1,11 +1,10 @@
 # cmake_template
 
-[![ci](https://github.com/cpp-best-practices/cmake_template/actions/workflows/ci.yml/badge.svg)](https://github.com/cpp-best-practices/cmake_template/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/cpp-best-practices/cmake_template/branch/main/graph/badge.svg)](https://codecov.io/gh/cpp-best-practices/cmake_template)
-[![CodeQL](https://github.com/cpp-best-practices/cmake_template/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cpp-best-practices/cmake_template/actions/workflows/codeql-analysis.yml)
+[![ci](https://github.com/Devanand-Sharma/cmake_template/actions/workflows/ci.yml/badge.svg)](https://github.com/Devanand-Sharma/cmake_template/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Devanand-Sharma/cmake_template/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Devanand-Sharma/cmake_template/actions/workflows/codeql-analysis.yml)
 
 ## About cmake_template
-
+This was copied from [here](https://github.com/cpp-best-practices/cmake_template)
 This is a C++ Best Practices GitHub template for getting up and running with C++ quickly.
 
 By default (collectively known as `ENABLE_DEVELOPER_MODE`)
@@ -34,7 +33,7 @@ This project gets you started with a simple example of using FTXUI, which happen
 
 ### Use the GitHub template
 First, click the green `Use this template` button near the top of this page.
-This will take you to GitHub's ['Generate Repository'](https://github.com/cpp-best-practices/cmake_template/generate)
+This will take you to GitHub's ['Generate Repository'](https://github.com/Devanand-Sharma/cmake_template/generate)
 page.
 Fill in a repository name and short description, and click 'Create repository from template'.
 This will allow you to create a new repository in your GitHub account,
